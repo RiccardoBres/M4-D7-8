@@ -16,7 +16,7 @@ async function getData() {
 function myCard(products) {
     products.forEach(element => {
         let cardBox = document.createElement("div");
-        cardBox.classList.add("card", "col-md-3", "col-sm-6", "col-12", "my-4", "text-center", "pt-1","cardBox-size","d-flex","align-items-center");
+        cardBox.classList.add("card", "col-md-3", "col-sm-6", "col-12", "my-4", "text-center", "pt-1","cardBox-size","d-flex","align-items-center",);
         let name = document.createElement("h5");
         name.classList.add("my-3")
         name.innerText = element.name;
