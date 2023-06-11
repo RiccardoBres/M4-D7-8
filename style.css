@@ -10,7 +10,7 @@ body{
 }
 
 main {
- background-image: url(/M5-D6/Assets/5616958.jpg);
+ background-image: url(/M5-D6/Assets/4539321.jpg);
  padding-bottom: 150px;
   background-size: contain;
   /* background-position: center; */
@@ -19,19 +19,19 @@ main {
 }
 
 h1 {
-    margin-top: 100px !important;
+    margin-top: 80px !important;
     font-weight: 600 !important;
     font-family: 'Font Awesome 5 Brands';
-    color: #93c866b3 !important;
+    color: #7ea273fc !important;
 }
 
 
 .container-my {
- padding-top: 85px;
+ padding-top: 50px;
  
 }
 .p-jumb {
-    color: #93c866b3 !important;
+    color: #7ea273fc !important;
     font-weight: 500;
     font-size: 20px;
 }
