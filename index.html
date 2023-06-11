@@ -8,12 +8,14 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+      </head>
     <title>Document</title>
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary p-0">
             <!-- modificato back-ground color -->
             <div class="container-fluid bg-dark">  
               <img src="https://i.pinimg.com/originals/d1/b3/f3/d1b3f30261020f6576637130410c5469.png" class="img-logostyle " alt="LOGO">
@@ -30,20 +32,43 @@
                   </li>
                 </ul>
                 <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="search">
+                  <button class="btn btn-outline-success" type="button" id="searchButton">Search</button>
                 </form>
               </div>
             </div>
           </nav>
-
-          <div class="container">
-            <div class="row justify-content-between" id="container">
-             
-            </div>
-          </div>
     </header>
- 
+    <main>
+      <div class="jumbotroon text-center pt-4">
+        <h1 class="display-4">Plant House</h1>
+        <p class="p-jumb">La tua pianta in un click</p>
+      </div>
+      <div class="container container-my mb-5">
+        <div class="row justify-content-between" id="container"></div>
+      </div>
+      <!-- dettagli -->
+      <div class="container">
+        <div class="row justify-content-center" id="dettailsContainer"></div>
+      </div>
+    </main>
+    
+    
+
+    <footer>
+      <div class="container">
+        <div class="social-icons justify-content-center">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="contact-info d-flex justify-content-center gap-5">
+          <p>Email: info@example.com</p>
+          <p>Telefono: 123-456-7890</p>
+          <p>Indirizzo: Via Guaiane 180, Noventa, 30020, (VE).</p>
+        </div>
+      </div>
+    </footer>
 
 
 
@@ -51,6 +76,7 @@
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
     <script src="script.js"></script>
+    <script src="backoffice.js"></script>
 </body>
 
 </html>
