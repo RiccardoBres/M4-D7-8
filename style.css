@@ -63,6 +63,7 @@ h1 {
 
 .transition-scale:hover {
   transform: scale(1.1);
+ background-color:#ffffff00 !important ; 
 }
 
 .dettails-card {
@@ -71,14 +72,13 @@ h1 {
   border-radius: 10px;
   margin-bottom: 10%;
   /* text-align: center; */
-  background-color: #ffffffc2;
+  background-color: #ffffff24;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 .dettails-card p {
     margin-bottom: 10px;
     font-size: 20px;
-    color: #c13d3d;
   }
 
 .dettails-card img {

@@ -13,6 +13,8 @@ let myData = [];
 function createDettails(product) {
     let dettailsCard = document.createElement("div");
     dettailsCard.classList.add("d-flex", "card", "justify-content-center", "align-items-center", "dettails-card");
+    let title = document.createElement("h3");
+    title.innerText = product.name;
     let image = document.createElement("img");
     image.classList.add("image-fluid","dettails-fixedSize", "pt-4", "radius-circle");
     image.src = product.imageUrl;
@@ -21,7 +23,7 @@ function createDettails(product) {
     let price = document.createElement("p");
     price.innerText = "Prezzo" + " " + product.price + "EUR"; 
     dettailsContainer.append(dettailsCard);
-    dettailsCard.append(description,image, price);
+    dettailsCard.append(title,description,image, price);
   }
   
 
