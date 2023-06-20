@@ -10,7 +10,7 @@ body{
 }
 
 main {
- background-image: url(/M5-D6/Assets/4539321.jpg);
+ background-image: url(Assets/4539321.jpg);
  padding-bottom: 150px;
   background-size: contain;
   /* background-position: center; */
